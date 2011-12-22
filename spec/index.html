@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Jasmine Test Runner</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="jasmine/jasmine.css">
+  <script type="text/javascript" src="jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="jasmine/jasmine-html.js"></script>
+</head>
+<body>
+<script>
+var require = {
+  locale: 'en_us',
+  baseUrl: '../app',
+  paths  : {
+      'backbone' : '../lib/backbone',
+      'underscore' : '../lib/underscore',
+      'Handlebars' : '../lib/handlebars',
+      'hbs': '../lib/hbs'
+  }
+};
+</script>
+<script data-main="spec.js" src="../lib/require-jquery.js"></script>
+</body>
+</html>

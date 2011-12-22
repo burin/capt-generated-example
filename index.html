@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>Enterprise Mobile Development</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
+    </head>
+<body>
+<div class="container">
+    <div id="app" class="page">
+        <header class="app-header">
+            <h1>Enterprise Mobile Development</h1>
+        </header>
+        <section id="main">
+            <p>hello world</p>
+        </section>
+    </div>
+</div>
+<script>
+var require = {
+  locale: 'en_us',
+  paths  : {
+      'backbone' : '../lib/backbone',
+      'underscore' : '../lib/underscore',
+      'Handlebars' : '../lib/handlebars',
+      'hbs': '../lib/hbs'
+  }
+};
+</script>
+<script data-main="app/app.js" src="lib/require-jquery.js"></script>
+</body>
+</html>
+
