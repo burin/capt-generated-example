@@ -4,7 +4,9 @@
 //     spec/
 require([
 // <specs to be run>
-    '../spec/views/ApplicationViewSpec'// </lastItem> last item marker, do not remove :)
+    '../spec/views/ApplicationViewSpec',
+    '../spec/models/AnimalSpec',
+    '../spec/collections/AnimalCollectionSpec'// </lastItem> last item marker, do not remove :)
 ],
 function() {
     jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
